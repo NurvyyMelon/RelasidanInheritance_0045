@@ -1,12 +1,6 @@
 #ifndef IBU_H
 #define IBU_H
-
-#include <iostream>
 #include <vector>
-#include <string>
-#include "anak.h" // Sangat penting agar class ibu kenal siapa itu 'anak'
-
-using namespace std;
 
 class ibu {
 public:
@@ -37,5 +31,4 @@ void ibu::cetakAnak() {
     }
     cout << endl;
 }
-
 #endif
