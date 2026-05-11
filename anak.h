@@ -1,15 +1,19 @@
 #ifndef anak_h
 #define anak_h
 
-class anak {
-public
+#include <iostream>
+#include <string>
 
-string nama;
-    anak(string pNama) :nama(pNama) {
-        cout << "Anak \"" << nama << "\" ada\n";
-        }
+class anak {
+public: // <-- Tambahkan titik dua di sini
+    std::string nama;
+
+    anak(std::string pNama) : nama(pNama) {
+        std::cout << "Anak \"" << nama << "\" ada\n";
+    }
+
     ~anak() {
-        cout << "Anak \"" << nama << "\" tidak ada\n";
+        std::cout << "Anak \"" << nama << "\" tidak ada\n";
     }
 };
 
