@@ -10,7 +10,7 @@
 using namespace std;
 
 int main() {
-    // Membuat objek admin pakai pointer (biar mirip kodinganmu yang lain)
+    // Membuat objek admin pakai pointer 
     admin* varAdmin = new admin("Makoto Yuki", "admin@umy.ac.id");
 
     // Membuat daftar member menggunakan vector
